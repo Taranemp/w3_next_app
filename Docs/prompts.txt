@@ -1,0 +1,17 @@
+CONTEXT:
+Mobile-first web app built with Next.js, Tailwind CSS, and shadcn/ui — an online restaurant menu where users browse categories and place food orders.
+
+Read the existing codebase first, then build the main/banner (home) page with this layout:
+
+1. Top: hero image (I'll provide the image next)
+2. Below image: restaurant name, styled for mobile (bold, prominent, centered)
+3. Below name: opening hours + location (compact, icon-labeled  clock icon + hours, pin icon + address)
+4. Below that: menu categories grid/list, each with an icon; tapping a category navigates to that category's page
+
+RULES:
+Follow existing project conventions (component structure, styling patterns, naming) found in the codebase
+Use shadcn/ui components where applicable instead of custom-building from scratch
+Fully responsive, mobile-first (this is the primary target, not desktop)
+Keep it a single reusable component/page, cleanly separated (e.g. Hero, RestaurantInfo, CategoryGrid)
+No placeholder logic that breaks build — use sensible defaults/mock data until real data/image is provided
+Ask before assuming category routing structure if unclear from codebase
